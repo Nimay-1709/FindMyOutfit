@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnavigation {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .topnavigation a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnavigation a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .topnavigation a.active {
+      background-color: #7E685A;
+      color: white;
+    }
+
+    .logout_mainpage {
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="topnavigation">
+    <a href="#home">Create portfolio</a>
+    <a class="active" href="#Update Track History">Update Track History</a>
+    <a href="#Access Customer Information">Access Customer Information</a>
+    <div class="logout_mainpage">
+      <a href="#Logout">Logout</a>
+    </div>
+
+  </div>
+
+
+
+  <div style="padding-left:16px">
+  </div>
+
+</body>
+<style>
+  body {
+    background-color: #EEE2DC;
+  }
+
+  h1 {
+    color: maroon;
+    margin-left: px;
+  }
+
+  div.Submit_button {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="login.css" media="screen" />
+</head>
+
+<body>
+  <form>
+    <div class="container">
+      <br>
+      <center>
+        <h1> Update Track History </h1>
+      </center>
+
+      <center style ="color: maroon">
+        <p>Please Enter the Email of the Customer for updating Customer track history</p><br>
+      </center>
+
+      <center>
+
+        <p>
+          <label for="Order Placed">Order Placed:</label>
+          <input type="date" id="Order Placed" name="Order Placed">
+        </p>
+        <p>
+          <label for="Estimated Pickup">Estimated Pickup:</label>
+          <input type="date" id="Estimated Pickup" name="Estimated Pickup">
+        </p>
+        <p>
+          <input type="submit" value="Submit">
+        </p>
+      </center>
+    </div>
+  </form>
+  </body>
